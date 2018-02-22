@@ -157,7 +157,7 @@
 		<div class="col-sm-8 col-md-6 col-lg-5">
 			<div class="input-group">
 				<a id="prev-page" href="#" class="btn btn-default input-group-addon"><i class="fa fa-arrow-left" aria-hidden="true"></i> Older</a>
-				<span class="input-group-addon">№</span>
+				<span class="input-group-addon">&#8470;</span>
 				<input id="goto-height" type="text" class="form-control" placeholder="Height">
 				<a id="goto-height-go" href="#" class="btn btn-default input-group-addon">Go</a>
 				<a id="next-page" href="#" class="btn btn-default input-group-addon disabled">Newer <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
@@ -386,7 +386,7 @@ $('#next-page').click(function(e){
 
 $('#goto-height-go').click(function() {
 	var height = document.getElementById('goto-height').value;
-	var newUrl = "/?height="+height;
+	var newUrl = "?height="+height;
 	window.location = newUrl;
 });
 
@@ -854,4 +854,4 @@ function getReadableTime(seconds){
 }
 
 </script>
-<script src="../js/Chart.bundle.min.js"></script>
+<script src="/luka-explorer/js/Chart.bundle.min.js"></script>
