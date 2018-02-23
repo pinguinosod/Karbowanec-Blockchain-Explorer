@@ -10,7 +10,8 @@
 			display: inline-block;
 			vertical-align: middle;
 			color: white;
-			border: 2px solid white;
+			/*border: 2px solid white;*/
+  			background-image:url('http://pool.cryptoluka.cl/img/isotipo-luka.svg');
 			border-radius: 50%;
 			text-align: center;
 			margin-top: -4px;

@@ -12,8 +12,9 @@
 	height: 1.3em;
 	display: inline-block;
 	vertical-align: middle;
-	color: #FFF137;
-	border: 2px solid #FFF137;
+	/*color: #FFF137;
+	border: 2px solid #FFF137;*/
+  background-image:url('http://pool.cryptoluka.cl/img/isotipo-luka.svg');
 	border-radius: 50%;
 	text-align: center;
 	margin-top: -4px;
